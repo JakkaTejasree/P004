@@ -7,7 +7,7 @@ import App1 from './App1.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/p004/">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path='/fc' element={<App1/>}/>
